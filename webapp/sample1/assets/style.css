@@ -6,12 +6,17 @@ div p {
     display: none;
     font-weight: bold;
 }
+img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 table {
     margin: auto;
 }
-dialog { 
-    outline: none; 
-    border: none; 
+dialog {
+    outline: none;
+    border: none;
     background: transparent;
     text-align: left;
 }
